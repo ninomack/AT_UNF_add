@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="177eddf7-e004-4b6d-bfac-e0ebae576bb0">
+  <producedTypes>
+    <objectType typeId="fc0ec202-8c8f-43c0-9a04-e7abadbd30f6" valueTypeId="299d9b1e-961d-490a-89a5-dc4dd8065ff7"/>
+    <refType typeId="f569c057-ee8f-487c-9b16-d2b449cafc2a" valueTypeId="af7c39f5-a086-454f-86c8-39c4d4c3b793"/>
+    <selectionType typeId="dd634754-71de-4105-9a4f-2be38b0a17e4" valueTypeId="7b9ade88-dd18-488a-87a0-3f9e23b34cae"/>
+    <listType typeId="99452fbc-c8f6-4aa2-8327-85365cc34c66" valueTypeId="f0386d57-4830-4da8-94d9-a8fcac877199"/>
+    <managerType typeId="3f4f6767-3f9c-4644-8f0d-5ad5f1bb6e73" valueTypeId="051fc15f-da1f-405b-9097-25b33f34ca57"/>
+  </producedTypes>
+  <name>АТ_ЗаявкаНаРаботы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

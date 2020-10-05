@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41477fb1-6460-4fa4-a94b-635233674663">
+  <producedTypes>
+    <containerType typeId="435f8142-0816-4c00-847d-f391e0bfb621" valueTypeId="d44cc1fc-4a4c-4222-805d-19643467f406"/>
+  </producedTypes>
+  <name>Вес</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>16</precision>
+      <scale>4</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

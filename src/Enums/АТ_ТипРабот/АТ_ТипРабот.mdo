@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="014cbf65-db73-4312-bc9a-2d6a43260175">
+  <producedTypes>
+    <refType typeId="044b6e07-385e-478f-9c05-a93e59e339fe" valueTypeId="9ef62e05-6f4c-43e4-aa26-fafa319d62b3"/>
+    <listType typeId="8c43ab3f-07fd-4c1d-bd24-d1e9bc6d63c1" valueTypeId="3de4164f-ae5e-4f7a-bcd9-af9e3c1e35e2"/>
+    <managerType typeId="4d36a377-7270-44a4-81d9-4fdb300477be" valueTypeId="07637f37-a626-46ed-a3bd-cca788dc1b2d"/>
+  </producedTypes>
+  <name>АТ_ТипРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

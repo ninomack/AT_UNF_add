@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="84f3a006-fbea-4a70-af2c-6d41404d74d2">
+  <producedTypes>
+    <selectionType typeId="5ff86173-3483-4eaf-8c0b-31078b52616b" valueTypeId="28b25ff4-05b6-4a53-995b-635b45ce783f"/>
+    <listType typeId="e3e766a2-8f7b-4d0f-b148-295b1ff2c333" valueTypeId="3daa72c2-4930-4d68-be2b-906073469795"/>
+    <managerType typeId="a78c9311-4302-4b85-9b33-856acf4987aa" valueTypeId="4f528826-6e08-4e44-add6-40415bd96744"/>
+    <recordSetType typeId="51f62340-031e-43be-8435-9e636e829d8b" valueTypeId="29565123-a42d-494a-a021-d817a3f4ce87"/>
+    <recordKeyType typeId="6e254002-16e2-402a-98e8-68a44747c04a" valueTypeId="70b55d25-a149-4cc1-9ef5-71a33b99eeac"/>
+    <recordType typeId="f02c3760-2fff-429e-b4fd-50ef10b23f08" valueTypeId="4db1805a-9dba-44bb-8db2-96318e80dd7c"/>
+    <recordManagerType typeId="acba9e0a-35a8-41de-bf67-860685dd9779" valueTypeId="2a6b9b20-40a5-43f1-b0eb-c1d4a55fec02"/>
+  </producedTypes>
+  <name>ОсновныеДоговорыКонтрагента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="72f237a1-a3cd-4a32-820e-6199f1de6714">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+  </resources>
+</mdclass:InformationRegister>

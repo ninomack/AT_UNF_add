@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9f60ab4-5b73-4e7b-a179-cb689ee74175">
+  <producedTypes>
+    <objectType typeId="8bbb4882-edaa-48f4-95e2-f35e8e7726ce" valueTypeId="bf85f1f6-5f3f-46e6-ad01-5331b49ba630"/>
+    <refType typeId="0cde0195-5709-4c5e-b1fb-9c42f3a249b8" valueTypeId="c72a60f0-95ce-4b93-9951-90d5bef1525b"/>
+    <selectionType typeId="e895b07e-bc13-4ea1-bb58-17291b56d8e7" valueTypeId="122a0a1b-4ad4-48b6-9a69-bd5fd8f7ae51"/>
+    <listType typeId="273dd949-5809-4113-a81d-f4ea67f48c13" valueTypeId="568c9555-ec6b-4258-bc45-33e025c8df85"/>
+    <managerType typeId="d208f3e6-08a0-4feb-a97f-f954a30a5507" valueTypeId="81020fe1-77fe-45a5-ad41-f6b14d5d9663"/>
+  </producedTypes>
+  <name>АТ_Обращение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

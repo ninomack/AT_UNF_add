@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48c21809-fd63-4c68-9950-a25325a29bd7" extendedConfigurationObject="f0d422a3-3ee7-47d6-883c-247b0356aa34">
+  <producedTypes>
+    <objectType typeId="aed45a38-cdd4-4f3d-9127-4b483bab72a3" valueTypeId="ba58291c-d849-49b4-b93c-6082435021e0"/>
+    <refType typeId="ef922114-3631-4320-b622-142a5fd79e6f" valueTypeId="9a06665a-8224-47bc-89a6-13fb8195fa8e"/>
+    <selectionType typeId="9ad5f8dc-07f4-4368-b66a-15f62ba4c70c" valueTypeId="140db7a0-5bc8-436f-8d8b-4f34ea5a1620"/>
+    <listType typeId="80e2a27d-95c9-413c-a4e9-d4bc428bae20" valueTypeId="8546d21c-cd45-4654-8be8-901124b6f8eb"/>
+    <managerType typeId="cd8149fe-250a-4a0c-a3e5-5455595226df" valueTypeId="e60304a5-2448-465e-9206-cd257df87261"/>
+  </producedTypes>
+  <name>АвтоматическиеСкидки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09467b22-6185-40b6-afe0-9cb975bb0e00">
+  <producedTypes>
+    <objectType typeId="2d20dc40-9799-425e-bb24-bf0080fad24a" valueTypeId="25afe40d-1a56-44ae-ab53-83cc9b86a609"/>
+    <refType typeId="a308771b-7ac3-47cf-a5cf-0eb8f3a37efe" valueTypeId="f7607ec4-65a4-4e1d-b246-19f6aa970caa"/>
+    <selectionType typeId="5c439af0-261d-4731-8f8a-b351172941e3" valueTypeId="c5a3a190-13d0-474d-bda6-85bf088b1ace"/>
+    <listType typeId="26acbde6-4be8-46ed-ad13-90f9b8585a05" valueTypeId="25abee7a-bfb7-4f97-a271-413321307324"/>
+    <managerType typeId="5a461da7-96fa-49b8-a349-704c3a7e500d" valueTypeId="33db2556-4cad-4222-83e7-a3897c2e406f"/>
+  </producedTypes>
+  <name>РасходИзКассы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

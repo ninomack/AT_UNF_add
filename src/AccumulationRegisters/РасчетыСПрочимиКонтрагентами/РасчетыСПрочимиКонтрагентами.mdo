@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="44707d96-a35a-40a1-b6c4-8b81d9ca31ba">
+  <producedTypes>
+    <selectionType typeId="9c3689a7-de47-4427-b223-92bb6e44c68e" valueTypeId="782a268e-867c-4a54-ad95-610b01e2ffba"/>
+    <listType typeId="430974d7-094e-46f3-93f7-e4cb7b46b053" valueTypeId="1ad35e75-fe45-48d8-b2e9-03dc8ac63e44"/>
+    <managerType typeId="b80d5caf-4b41-4339-b96f-e185fed36a97" valueTypeId="d7e26d91-78ba-4b70-9c7c-9e0b6977ed14"/>
+    <recordSetType typeId="569d8daa-a86f-4431-9056-4c9356b0d00e" valueTypeId="682a1c5c-e76d-4a2e-bf67-64ddc485b755"/>
+    <recordKeyType typeId="209da2a4-1b08-4ffe-9257-30d01f99c3f9" valueTypeId="35665471-86f3-42a9-8ad6-6a9eb25feec9"/>
+    <recordType typeId="0e4f404a-58b9-49a6-8947-c49851d62a68" valueTypeId="e1a523de-411c-4e96-b22b-4674bf0da6de"/>
+  </producedTypes>
+  <name>РасчетыСПрочимиКонтрагентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="fa15dd14-022d-430e-8941-7c08a9e602b5">
+    <name>СуммаВал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="078b0cda-1662-43ce-9054-7737f7b694f1">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

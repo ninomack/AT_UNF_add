@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="35f2e327-d1f0-4ca4-8d28-51f8e6b940ee">
+  <producedTypes>
+    <objectType typeId="51e80a4e-3c76-4731-a40e-01153d715616" valueTypeId="96dbce43-fa21-4649-945f-85ab0e66ba33"/>
+    <refType typeId="dedf0341-d549-44b0-8397-1232f4c7a272" valueTypeId="c1c79d79-793d-4af5-ac67-1bf7f93483c6"/>
+    <selectionType typeId="a2b974ab-a317-47fd-aa67-a1f3a0b9e972" valueTypeId="628b339d-434b-40e3-be68-d6c67a0f7e18"/>
+    <listType typeId="9ea61bf1-f8fa-4c2b-95f3-e52026d64e2e" valueTypeId="c5560058-d186-46b2-a10a-c0c3fabc2bff"/>
+    <managerType typeId="d4275341-b655-4e71-a88f-589eadd47bab" valueTypeId="3ddbad8a-304a-4c9b-b444-4564538e3667"/>
+  </producedTypes>
+  <name>ВидыСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e7bc09bf-0429-4e6f-8d2d-d42639715292">
+  <producedTypes>
+    <objectType typeId="eb7811c2-6c96-4853-8b08-6e61c86baed8" valueTypeId="f28fa5b4-c96a-4ebc-a52c-12734564c581"/>
+    <refType typeId="4bccc9b2-c6e5-408e-943e-fb5d25659dbe" valueTypeId="dc9d6e11-3558-4722-8eb4-4f5c9c0c67fa"/>
+    <selectionType typeId="8c4e2d0f-4b01-468a-8dd8-0420f7081f22" valueTypeId="799ad47b-401f-4778-8550-73865ca21188"/>
+    <listType typeId="2ee1152a-83b8-41cb-91f6-f08a0b19242a" valueTypeId="491d263d-fb95-4cd5-ac02-400190788965"/>
+    <managerType typeId="8673e87f-db89-4a66-a130-0084e72cd7be" valueTypeId="53cb99b9-e88c-4677-8f28-f9f82866fe15"/>
+  </producedTypes>
+  <name>ОперацияПоПлатежнымКартам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

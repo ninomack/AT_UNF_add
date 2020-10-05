@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f31007e-63d4-4d4d-be41-1fb64ce9a1e5">
+  <producedTypes>
+    <selectionType typeId="a551937d-ced1-43dc-b069-ec93cfd5659f" valueTypeId="afa9af45-2245-412f-9d91-861e4897deb7"/>
+    <listType typeId="4a5edb59-3bbb-4a56-a828-d0d635792b32" valueTypeId="d114401d-d5af-4b26-9f2f-171c310e7c59"/>
+    <managerType typeId="00c271b7-da09-4bc6-a844-c7b2230c41bc" valueTypeId="522f337d-eb83-4a3d-b199-3f809f94c19d"/>
+    <recordSetType typeId="a84274b6-444e-46d3-8781-647e52eb4475" valueTypeId="fecdd599-3ca7-467e-8237-7711b812aa4a"/>
+    <recordKeyType typeId="ddd5eeef-3f62-4704-9cfa-2f258e92044f" valueTypeId="b2895d62-b5cf-4fc1-97f2-331ac3da2971"/>
+    <recordType typeId="1096f808-1751-4170-8d0c-fffc9ae3c32d" valueTypeId="70275328-0d7c-4bf3-bb54-8f3ddd06b5c3"/>
+  </producedTypes>
+  <name>РасчетыСПокупателями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="497f1ad0-c97c-4131-998a-b7172733c5d6">
+    <name>СуммаВал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="f2b7ca97-42f5-431d-b097-eb70e48bdc6d">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

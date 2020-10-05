@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b797674-3faf-4567-8b45-03415fc3456d" extendedConfigurationObject="94b2e060-53b7-4b40-af05-30bea3520330">
+  <producedTypes>
+    <selectionType typeId="6b0f9bdd-cacf-4cd6-9d2f-aba90da639b0" valueTypeId="b7f0d224-c2b4-4762-8c36-b4cedcdbc8c7"/>
+    <listType typeId="360bc991-f158-4461-bb88-f933887c3a9e" valueTypeId="051c6373-cc48-4d7d-af3a-ff5acd8fbd5f"/>
+    <managerType typeId="e9a5d136-df88-4e63-9729-0f282d4b35fc" valueTypeId="c918e8ce-43d3-444c-bc64-9c73d55437d0"/>
+    <recordSetType typeId="b182bd27-fca1-4a12-933d-80e1b007910b" valueTypeId="381b5d2b-0c7f-482c-8f7e-8f7cbfba7b6e"/>
+    <recordKeyType typeId="284a98b3-de35-409e-a8bd-f5fdb42dc366" valueTypeId="0b2de1c1-e19d-4b67-ae1c-1f0648f8bb3a"/>
+    <recordType typeId="01f5113a-42ba-4410-802b-d2231e822ee9" valueTypeId="e9f0a027-5498-4fcc-b480-8a0e65c868d5"/>
+    <recordManagerType typeId="c9ccacbd-f745-46e4-af1b-1951f1d7b76a" valueTypeId="7de7a184-0053-447c-bccd-47b9c9ef643e"/>
+  </producedTypes>
+  <name>НапоминанияПользователя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="dd0359e5-2b6c-4d26-978c-3209190a0ab6" extendedConfigurationObject="0f634f7e-7d6b-43e4-8e5e-a31ed05898ea">
+    <name>СрокНапоминания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <attributes uuid="caff9530-d0fa-41a7-837b-2eec6eb4c213" extendedConfigurationObject="41b0dabd-85a3-4819-84dd-371eaf4f996e">
+    <name>Описание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <dimensions uuid="d0e548f6-9617-4518-a94e-d1612607c056" extendedConfigurationObject="c3ffeb09-121b-4d77-9c15-def4648b4f3c">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="988b4612-b71a-4cd5-9156-ba0d1b792b15" extendedConfigurationObject="c2de0724-04c1-4adb-b62a-b7ba727dbe67">
+    <name>ВремяСобытия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </dimensions>
+  <dimensions uuid="6dfadd6c-fef6-4857-87d6-39844f285e74" extendedConfigurationObject="4ae26777-69ff-4a55-942b-0bad8ab7a70a">
+    <name>Источник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DefinedType.ПредметНапоминания</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

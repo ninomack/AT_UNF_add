@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="98e6decc-7129-489c-a2ae-9622bed03a9a" extendedConfigurationObject="d1e46e3c-8210-4b5c-960b-0721efcdb4b1">
+  <producedTypes>
+    <objectType typeId="2ac2968b-f14a-4cf4-a89a-c91a5e0254bf" valueTypeId="8e9e713d-8616-44f7-b4e1-4af1059f7243"/>
+    <refType typeId="a6c7dc8a-2c4b-49cd-9469-02cfd43ef80f" valueTypeId="6de30aa0-29eb-4ec0-ac5a-5614d4c766aa"/>
+    <selectionType typeId="b9f0262a-7692-4583-81b7-4d8e63100a1f" valueTypeId="b02ff4e3-fb34-4224-8ce5-469cf0260b4f"/>
+    <listType typeId="4c67ff9c-7b3c-49a9-be35-7115874ba43b" valueTypeId="dff0e163-ddf9-437b-8a9b-645868165e95"/>
+    <managerType typeId="cd468b7c-35c7-4547-9a6c-c64f02106f39" valueTypeId="7d118017-72b9-4711-abc8-7306b9b3fbd8"/>
+  </producedTypes>
+  <name>СерийныеНомера</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

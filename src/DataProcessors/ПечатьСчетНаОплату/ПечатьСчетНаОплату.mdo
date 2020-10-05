@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89c7fdd5-776e-4cfe-a4b9-2b012647887c" extendedConfigurationObject="77db291c-e0ad-400a-aadb-c64838701c0e">
+  <producedTypes>
+    <objectType typeId="f3cc35b9-eb69-428a-8a5e-418d990a2399" valueTypeId="aa969b7a-41a6-44b2-a784-01c4620f4c9b"/>
+    <managerType typeId="86f15b68-7f0d-44ab-87c6-b07700c0ebdf" valueTypeId="c3cdd368-bf06-4c00-b553-c97c195752f4"/>
+  </producedTypes>
+  <name>ПечатьСчетНаОплату</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

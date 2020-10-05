@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="692c2ecd-44c3-4aeb-a3dc-376a55582a66" extendedConfigurationObject="56c97ee3-ac22-45b7-b334-45c9811e9772">
+  <producedTypes>
+    <selectionType typeId="c30ac846-428a-4826-b239-829440a1adae" valueTypeId="551f85a1-6ce5-4255-9164-1fb5b772b920"/>
+    <listType typeId="97631773-3ddc-4fd3-83ec-829b5edeb849" valueTypeId="06aa1505-3501-436f-ab99-c5d2f50279fb"/>
+    <managerType typeId="bb680010-4333-4d04-ad69-343945572ae1" valueTypeId="3a6956c7-29d1-4cfc-bae2-2eb73bc8a46e"/>
+    <recordSetType typeId="af750784-0b6e-4a01-9d19-26c7f448fcf2" valueTypeId="c0dd8c76-1377-4ab2-b5b6-d8970b311bf5"/>
+    <recordKeyType typeId="e4bb1173-e501-4b0f-81b1-3463dbd44609" valueTypeId="ebf2ae42-4799-4b52-b424-1bf4396c1e12"/>
+    <recordType typeId="3eb877a2-f02f-47e1-9470-4038225c7d52" valueTypeId="46bfeea0-1a5c-4802-ac0c-d647ecbd1acd"/>
+    <recordManagerType typeId="80285e73-995f-4a4d-9cc9-54b0228bab4b" valueTypeId="b08dd5ca-6b83-458e-8f70-38ab53b61cfe"/>
+  </producedTypes>
+  <name>ГрафикОплатыЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dimensions uuid="d695cb05-db14-46bb-8561-22e14fce5e9b" extendedConfigurationObject="88ffb344-d858-45b9-aa6a-9ca854318cc6">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

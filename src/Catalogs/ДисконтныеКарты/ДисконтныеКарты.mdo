@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff443dec-1e9a-493a-a056-bd01b6125094" extendedConfigurationObject="3d16e55c-819a-4e99-a79c-97b8849afd19">
+  <producedTypes>
+    <objectType typeId="be595863-953b-4296-b5ee-6e39c9dea030" valueTypeId="a66241ed-a1c4-4ff6-9ac9-ff0a1423fc83"/>
+    <refType typeId="b1dad915-4819-4ac8-bc0d-cb9a60c3d592" valueTypeId="bc922a74-6590-4522-a773-c4b041ad0784"/>
+    <selectionType typeId="e7f0a63d-9e15-40dd-8fa7-f82162409a0d" valueTypeId="cbc5053a-d42e-4c3a-9355-e714d83a922e"/>
+    <listType typeId="7aba9d6c-4dba-4fee-be0c-95e37cffe99c" valueTypeId="f9e2faf9-888b-45c8-88d2-55c43a0b3404"/>
+    <managerType typeId="b3bf6087-1dee-4200-bca3-96f3aca00c5a" valueTypeId="c2afe7a8-ec3d-49dc-8b54-589cb3a518e2"/>
+  </producedTypes>
+  <name>ДисконтныеКарты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

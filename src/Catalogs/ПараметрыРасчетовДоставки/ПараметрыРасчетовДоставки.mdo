@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c376c700-d94e-4203-b01e-315bbfa8919a">
+  <producedTypes>
+    <objectType typeId="2ed6ede4-56bb-4734-aaf2-74b95f710660" valueTypeId="bdf16b60-dffb-4e09-a63e-1d0dfc72260d"/>
+    <refType typeId="72bb20c1-c202-4d95-8599-bcd30eedea6a" valueTypeId="18341556-097d-478d-847e-e990ba891156"/>
+    <selectionType typeId="a12c6abb-0ded-4613-a3f1-f59fbd5dd6c3" valueTypeId="e8d3ddfc-2e7e-4022-af49-1dc007d81cf9"/>
+    <listType typeId="116b48c5-99d6-4b97-a438-86036063f5ba" valueTypeId="f0ceb29e-885d-440b-92a3-5d8b06cbe5f1"/>
+    <managerType typeId="7b520c1b-ff66-4bbd-a8fb-1b53ebec9bf1" valueTypeId="00cbff90-bd80-401c-b64b-1dd3c7969257"/>
+  </producedTypes>
+  <name>ПараметрыРасчетовДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

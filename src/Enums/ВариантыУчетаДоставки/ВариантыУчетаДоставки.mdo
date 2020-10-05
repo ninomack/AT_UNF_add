@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e68baae0-1b68-4c20-947e-5f8a3365bc91">
+  <producedTypes>
+    <refType typeId="30ec2453-fb22-4d16-9156-df1088042360" valueTypeId="1b321057-ca65-4a58-8af6-b4833389b83d"/>
+    <listType typeId="f90f2dec-81cf-4731-93bf-3755006060b6" valueTypeId="bfd4a570-cde5-4e66-be5b-968ef9b2ff22"/>
+    <managerType typeId="fdf88d62-5652-4dd9-b2cc-76a7257ed982" valueTypeId="e3753288-3bf9-4241-b4f5-b5bcef6c08d4"/>
+  </producedTypes>
+  <name>ВариантыУчетаДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="751d2dad-2083-4478-8915-ecbacdbad0d3" extendedConfigurationObject="65d4ed5d-f8b5-4d6c-b917-0e1d168b387d">
+  <producedTypes>
+    <selectionType typeId="fdf61440-b053-49d4-8403-dbbec474cd71" valueTypeId="c888e8bc-308d-4987-8819-74e9010e8e3f"/>
+    <listType typeId="e6eeb606-64a0-4c77-b21d-24bddb1dbb11" valueTypeId="0cf1262b-0330-4303-a18e-862bcf72405c"/>
+    <managerType typeId="52ef9771-6a66-422b-95a5-878b7681454e" valueTypeId="c31bf0d1-a63d-448a-86c0-05c9d4080070"/>
+  </producedTypes>
+  <name>ДокументыПоПродажам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registeredDocuments>Checked</registeredDocuments>
+  </extension>
+  <registeredDocuments>Document.СчетФактура</registeredDocuments>
+  <registeredDocuments>Document.ЗаказПокупателя</registeredDocuments>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <columns uuid="5ab6814c-4600-4164-9d29-5ebfb05af95a" extendedConfigurationObject="75034c88-d68d-45d5-b2e8-847c163e3a57">
+    <name>НДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="87cda920-3837-49e6-b425-6527ba4270a7" extendedConfigurationObject="8938c2e0-b48f-484a-8aee-7a8f278743df">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="db72aeea-3548-496a-9715-f7a211d27cce" extendedConfigurationObject="3e03795b-9f9a-4ef9-a34f-11facde34690">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="9454a5ef-0ece-4f7c-be5c-6d22ebac7923" extendedConfigurationObject="0e8aca63-0ff4-4f3d-8a1f-7312b21fbf80">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="612f9fb4-18a7-46c3-a347-6a0393fd0adf" extendedConfigurationObject="94e4b6a3-eefb-466f-9244-bcbed82a0382">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="4ea96c1d-5d45-4af9-95c8-f295713c7fe5" extendedConfigurationObject="3e7cc417-5841-4e1e-bb6a-60b05f07a022">
+    <name>ВидОперации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="9cc5bcc0-8129-4208-82a2-46b6f2739426" extendedConfigurationObject="b3786b68-015b-49d5-802c-98d7fa8c6726">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="29810573-9542-4853-8f81-86b733242d7f" extendedConfigurationObject="3badfc54-7675-4804-b14e-75d5783598b8">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="96d095f0-c775-4ce7-93a0-073f4ed166ea" extendedConfigurationObject="e10a5718-2a93-420d-9548-20444fa83522">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="31c8091a-0b6d-4272-b695-bf68e98a9a04" extendedConfigurationObject="96cac112-c8f8-4c01-b553-3dca0db60f84">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="6d967bd9-bacb-4d19-8ebc-d547903ff4a9" extendedConfigurationObject="6080e3d5-d2dd-4d7e-951f-0a364f6d08d7">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="49add377-36cb-49e1-a0e0-2d5565b38138" extendedConfigurationObject="f43283f5-5280-4dca-acf3-b800174e76d7">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <forms uuid="a07af43b-0d41-4222-af03-91330ac9274f" extendedConfigurationObject="8d7fbfc8-e1a7-40dd-a1aa-79d47b1d78e6">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

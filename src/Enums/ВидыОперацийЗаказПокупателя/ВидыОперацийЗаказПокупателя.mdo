@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="141ad329-1b96-424a-890c-0c1a228d64df">
+  <producedTypes>
+    <refType typeId="2e3884cf-4c01-4095-8c27-73a3bc5debed" valueTypeId="ec60264b-f718-4738-afd3-e0c9c22be74b"/>
+    <listType typeId="1af245fe-b31b-492a-8fb5-6fbcc40cc5d9" valueTypeId="daf59e28-2906-4c97-98e6-6487a5a92d52"/>
+    <managerType typeId="00169035-55e7-4c99-932c-8aed90619072" valueTypeId="a0a883ae-2451-4a44-b758-b802c3bf2836"/>
+  </producedTypes>
+  <name>ВидыОперацийЗаказПокупателя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

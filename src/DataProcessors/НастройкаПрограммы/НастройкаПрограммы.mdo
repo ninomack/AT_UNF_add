@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="47af571a-44a7-42c5-a9f6-7dd1e4ec6bba">
+  <producedTypes>
+    <objectType typeId="64d27724-d01f-4fc6-9e33-c01b0e779b64" valueTypeId="f6be45f8-d351-4bc5-a3a4-944951cef700"/>
+    <managerType typeId="b3a14b41-eb13-4c6b-87e2-24577b5a1d51" valueTypeId="d21b2089-65d9-40f3-b022-a80e129b4578"/>
+  </producedTypes>
+  <name>НастройкаПрограммы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <commands uuid="5344477c-2176-468b-b3e8-6819c27e99d5">
+    <name>БольшеВозможностейКонтекст</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+    </extension>
+    <group>FormNavigationPanelSeeAlso</group>
+  </commands>
+</mdclass:DataProcessor>

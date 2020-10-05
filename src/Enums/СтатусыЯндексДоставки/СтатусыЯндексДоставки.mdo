@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c14081f8-4f0c-47a5-823c-64b6bd83fccd">
+  <producedTypes>
+    <refType typeId="fcec5a3b-f4d9-490e-bbb6-7ced82405fe5" valueTypeId="fdddede9-ed36-4659-bd29-026e954056a8"/>
+    <listType typeId="fb71c3d0-8c51-4d8f-9e55-d5caf32bf12e" valueTypeId="9b3e9dd2-2efd-46de-8a5a-51e7e6511f15"/>
+    <managerType typeId="dbd538e6-c1a8-43b6-b52b-20420ae5e9db" valueTypeId="83afc9c8-7c4a-40ee-95db-df4cd6607e36"/>
+  </producedTypes>
+  <name>СтатусыЯндексДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

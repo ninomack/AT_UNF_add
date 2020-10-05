@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="72003b54-9d58-48da-9173-c70271ea6f98">
+  <producedTypes>
+    <objectType typeId="bca845dd-49a0-4557-876d-021047909786" valueTypeId="b282fb50-28c1-4d3c-8c97-f4243298bd03"/>
+    <refType typeId="8ee67559-6287-4856-8636-df82d2e5201a" valueTypeId="f3281167-c464-49ec-8685-1750b90e7938"/>
+    <selectionType typeId="f79bfe69-ae61-4038-9c99-9d9750a6e64d" valueTypeId="9d24c1a9-9342-49ad-b08a-97e0e821662c"/>
+    <listType typeId="77b0fbd3-8f07-4819-aedb-8c8dc14f1199" valueTypeId="dbe1bc72-71d4-4bad-bf0f-187b06da6378"/>
+    <managerType typeId="1d163a55-aa8a-4889-a634-80684163b977" valueTypeId="e990f787-c8f0-4107-a60f-f9ffbfa38510"/>
+  </producedTypes>
+  <name>НастройкиЯндексДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

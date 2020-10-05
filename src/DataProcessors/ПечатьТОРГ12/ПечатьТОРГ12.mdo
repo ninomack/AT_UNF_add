@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26c2f241-5353-49a2-b4e8-26b2e237d1d9" extendedConfigurationObject="8d98a01d-b838-4c57-aadc-c06cd418ad46">
+  <producedTypes>
+    <objectType typeId="af7995a4-b3e9-4f2b-9af0-ee90eeadbcba" valueTypeId="87d2f607-7375-49ec-93df-6924be5e95fd"/>
+    <managerType typeId="62198587-e25b-412c-b8ad-e7b5c269be44" valueTypeId="7cb635a1-fcd3-4af4-8bd4-7f65b3aeb3b6"/>
+  </producedTypes>
+  <name>ПечатьТОРГ12</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:DataProcessor>

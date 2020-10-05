@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbfc3425-fae8-41fd-9864-1fe5fe0dd8b8">
+  <producedTypes>
+    <objectType typeId="5efd6445-9a22-467f-a2a4-a34737e89a6f" valueTypeId="0225ec2b-a98c-4f3a-a458-8f09c76d7edc"/>
+    <refType typeId="ff70bcd6-df54-4b9f-a188-c8a1a063bddd" valueTypeId="7e80268f-3e11-4ca5-b841-91013d841e55"/>
+    <selectionType typeId="f4ab1263-2f6a-41e8-b3a5-9939fac91b1f" valueTypeId="8b47f1c8-a58e-44f7-9306-3dccd2276292"/>
+    <listType typeId="e8c2bec0-fe0e-4efa-82f7-ecd8f4637d73" valueTypeId="bfeed443-d901-47ae-8e8d-dfca14f5b8c8"/>
+    <managerType typeId="9fd6cf2e-01a0-4186-859a-1affa09e9c45" valueTypeId="90d2dabd-116f-4f28-b523-b36fa4edda89"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

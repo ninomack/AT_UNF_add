@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="edd5b0cf-5b2f-4eb9-9612-ab2137c4199f">
+  <producedTypes>
+    <refType typeId="f707ed5d-a787-4138-9bac-0efc466bbb98" valueTypeId="79f5469f-3c44-4821-ad58-018b182245c4"/>
+    <listType typeId="48e081a2-3236-4968-9219-924ec2f0fccc" valueTypeId="2afbc190-e58c-40c7-85e9-e0969919d358"/>
+    <managerType typeId="22f9e541-a882-4801-93d8-01f4e4a44e25" valueTypeId="72ce1ba1-8384-4734-8423-1d435f30dda4"/>
+  </producedTypes>
+  <name>ТипыДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d551e3a2-57ad-46cc-b597-2623bbc7bfee">
+    <name>Наличные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3d5d64da-3c59-4cb0-a0b6-07707645f084">
+    <name>Безналичные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88982ebb-b926-43bb-856c-deb6c1d80eba">
+  <producedTypes>
+    <selectionType typeId="c9d78d0b-e94e-42e2-94a5-b38a87079d2f" valueTypeId="0bdc40f3-f157-4c0a-97a4-40ea5b002fb1"/>
+    <listType typeId="ec2d98af-69a8-4be0-8792-114f2a323091" valueTypeId="b23a948e-10c2-460a-a88d-cb42a73721a5"/>
+    <managerType typeId="8f793e5c-1ef2-4baf-b73d-71fd4f864e76" valueTypeId="c2242547-3894-45c3-8da0-c9fbf6004ad8"/>
+    <recordSetType typeId="c2651ab8-9721-4be9-beaa-0f6050d59cca" valueTypeId="b1419c77-6b65-4380-a800-1317d477ed1d"/>
+    <recordKeyType typeId="a306eda3-1cf1-4c50-9762-56d3b1c33cbd" valueTypeId="2583ae1d-1d82-4c4b-a1f2-d385616fe3c2"/>
+    <recordType typeId="83e6e018-b863-4876-b78d-38663a1dfe17" valueTypeId="65b696af-698f-4ba9-a948-597e67fd6e0b"/>
+  </producedTypes>
+  <name>АТ_УчетРаботКОплате</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="c438e43e-3a25-4f2e-9b0b-33f066e370d6">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="a2349e3b-9994-4cda-aee5-e0d49cdc6a0c">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="c11f3a0b-e55d-4b3d-ab13-ce739cf83038">
+    <name>Заявка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.АТ_ЗаявкаНаРаботы</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="79ff482f-2d99-45e7-8e8a-eb0e59950c4d">
+    <name>УчетВремени</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.АТ_УчетРабот</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="82ee0e12-6736-476b-b8b2-012080748055">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="20a00f0e-7c84-4a33-aa4d-1bd8dacd428e">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

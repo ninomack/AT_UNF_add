@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f3b970e0-4e4f-4dd6-a1a6-788eeded0720">
+  <producedTypes>
+    <refType typeId="d24e4853-7229-412b-a137-7acb373fc4c0" valueTypeId="22d8b2d6-2f1f-4c85-9953-0d10d5def5f6"/>
+    <listType typeId="9d4e87cd-7b06-4ac1-9fb0-c303189fa1ec" valueTypeId="761c3b60-0b3a-43b1-970a-c399250082b7"/>
+    <managerType typeId="54237d44-052b-45ee-a4cd-88dc9324f0b2" valueTypeId="fd64b389-3144-4462-80a6-ab08fc6ddc4a"/>
+  </producedTypes>
+  <name>ПараметрыБланковДоговоровСКонтрагентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d965908e-edbd-436e-9de2-aa98cda63d1b" extendedConfigurationObject="cd22dc70-88e3-4917-a2b6-8fb78c49fc4b">
+  <producedTypes>
+    <selectionType typeId="d9465f15-d07f-41f4-b36b-d225c907480a" valueTypeId="4cb3a97e-8cb6-4349-b008-7bc1b505b916"/>
+    <listType typeId="54a67339-0c65-403b-b302-1be5c67fc845" valueTypeId="941f9a43-b10e-410a-9b56-8f4a89e3c267"/>
+    <managerType typeId="a72a9787-26b6-4b78-8304-40cc07e3ea20" valueTypeId="7005b64b-f9cd-4525-a036-3cfcce512936"/>
+    <recordSetType typeId="8c6a7a05-9f1a-4f6b-8d8c-e9fc786be4da" valueTypeId="2b0ddd19-9988-4e39-973b-c7915a71ed1f"/>
+    <recordKeyType typeId="bbc03663-ceb5-4b12-ac24-2aa2b8803b42" valueTypeId="91205d98-073c-46a5-8382-fccef76c8aff"/>
+    <recordType typeId="e24fd6c2-5e36-4157-9f70-81951c73e0a5" valueTypeId="71d0d6c7-e4fc-4c20-a82c-99eddf4f4ca4"/>
+    <recordManagerType typeId="8814c25b-d65c-4a2f-8d96-48748a5ed6eb" valueTypeId="941b3d6f-d6b4-42b0-8883-741c176ea87a"/>
+  </producedTypes>
+  <name>ФактОплатыДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="99675705-c42b-46e3-a9a4-2e15c6efebd2" extendedConfigurationObject="9f4590e0-f81d-4e11-8910-66ef0811b786">
+    <name>СуммаАванса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="f9b0ac98-99bd-46bd-99d2-e053e42565ed" extendedConfigurationObject="16905b25-2e5f-42e0-90f2-2b877bac0e33">
+    <name>СуммаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="67c5d1fd-8a04-4d27-abd1-d781560827db" extendedConfigurationObject="1971e5ba-6fff-4800-b15a-e8063fcfb7a1">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="621bad9c-32e5-4f38-b672-c1898e72a016" extendedConfigurationObject="d392b1e8-0e80-4f43-99cd-dc4c9ec011d2">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>
